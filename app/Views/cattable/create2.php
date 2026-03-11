@@ -1,8 +1,6 @@
 <h2>Einfügen einer neuen Katze (evtl extra, weil neu+bearbeiten in einem)</h2>
 <!-- h2 needs to re refactored for create and update-> dynmic -->
 
-<?= //session()->getFlashdata('error') ?>
-<?= //validation_list_errors() ?>
 <?php 
 // Error from Flashdata or from Controller
 $errors = $errors ?? session()->getFlashdata('errors');
